@@ -1,7 +1,7 @@
 # Platzi-AliceInAnimanoland
 
 ### Lesson 2 Part 1
-**We go to see:**
+**We will learn about:**
 - transform
 - transform-origin
 - transform-style
@@ -15,6 +15,28 @@
 
 ### Lesson 3 Part 1
 **Definitions:**
-- Trigger: Actioner of animations
+- Trigger: Initiator of animations
 
-We create the file pseudo-classes.html and pseudo-elements.html
+We created the file pseudo-classes.html and pseudo-elements.html
+
+## Lesson 4 Part 1
+**Timing or easing functions**
+Acceleration and Deceleration
+
+Timing functions examples webpages:
+[Easing Funcitions Cheat Sheet](https://easings.net/)
+[Cubic Bezier](https://cubic-bezier.com/)
+
+**Planes and axes**
+- X-axis: Left and right
+- Y-axis: Up and down
+- Z-axis: Depth
+
+**Stacking Context**
+- Layers
+- Hierarchy
+- Z-index
+- Overlap
+- Order
+- Depth
+It's when you add a form inside another and you obtain independent movement.
