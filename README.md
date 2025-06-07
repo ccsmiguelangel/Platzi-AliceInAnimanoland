@@ -64,3 +64,16 @@ This property is used to change the point of origin axes for the transformations
 
 
 ![Transform Origin Example](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGlyYzV0eXFobXdjeGtwMm16NWh5azd4ampnbTZ6M3J4bTIxNjlxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a4fGwnTMq3MJMNZYQI/giphy.gif)
+
+## Lesson 8 Part 1
+**Transform Style and Perspective**
+
+Introduction to 2D and 3D transformations, working with depth, planes and perspective points.
+
+Here i add some property and values added in the course: 
+- `perspective: 100px`
+Adds depth of 100px to the element, creating a 3D space.
+- `transform-style: preserve-3d;`
+Define and maintains the 3D plane to childs elements.
+- `transform: rotateX(50deg);`
+Rotates the element 50° around the X-axis. Note: This transformation it's diferent in 3D plane.
