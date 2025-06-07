@@ -40,19 +40,3 @@ Timing functions examples webpages:
 - Order
 - Depth
 It's when you add a form inside another and you obtain independent movement.
-
-## Lesson 5 Part 1
-**Transform property and skew, rotate, scale values**
-Transform can recive multiples values like:
-transform: rotate(10deg);
-transform: skew(10deg);
-transform: scale(10deg)
-
-New files are:
-- transform-scale.html
-- transform-skew.html
-- transform-rotate.html
-
-![Transform Examples](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDBuOGZnenZqdWhma2dnc2tobXQ1YWRzZ3U5cmRqOWJteGJhaWU4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KRRSOKFINjskbRNENr/giphy.gif)
-
-[UI Gradients](https://uigradients.com/)
