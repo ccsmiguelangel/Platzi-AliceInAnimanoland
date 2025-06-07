@@ -41,7 +41,7 @@ Timing functions examples webpages:
 - Depth
 It's when you add a form inside another and you obtain independent movement.
 
-## Lesson 5 Part 1
+## Lesson 5 and 6 Part 1
 **Transform property and skew, rotate, scale values**
 Transform can recive multiples values like:
 transform: rotate(10deg);
@@ -56,3 +56,11 @@ New files are:
 ![Transform Examples](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDBuOGZnenZqdWhma2dnc2tobXQ1YWRzZ3U5cmRqOWJteGJhaWU4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KRRSOKFINjskbRNENr/giphy.gif)
 
 [UI Gradients](https://uigradients.com/)
+
+## Lesson 7 Part 1
+**Transform Origin**
+
+This property is used to change the point of origin axes for the transformations. For example, when we use `transform-origin: left top;` the element rotates from its top-left corner insted of its center:
+
+
+![Transform Origin Example](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGlyYzV0eXFobXdjeGtwMm16NWh5azd4ampnbTZ6M3J4bTIxNjlxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a4fGwnTMq3MJMNZYQI/giphy.gif)
