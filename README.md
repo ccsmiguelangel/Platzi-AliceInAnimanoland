@@ -1,6 +1,6 @@
 # Platzi-AliceInAnimanoland
 
-### Lesson 2 Part 1
+## Lesson 2 Part 1
 **We will learn about:**
 - transform
 - transform-origin
@@ -13,7 +13,7 @@
 [Lesson 2 Part 1](https://platzi.com/cursos/transformaciones-transiciones-css/propiedades-para-crear-animaciones-con-css-y-propi/)
 
 
-### Lesson 3 Part 1
+## Lesson 3 Part 1
 **Definitions:**
 - Trigger: Initiator of animations
 
