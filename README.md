@@ -77,3 +77,11 @@ Adds depth of 100px to the element, creating a 3D space.
 Define and maintains the 3D plane to childs elements.
 - `transform: rotateX(50deg);`
 Rotates the element 50° around the X-axis. Note: This transformation it's diferent in 3D plane.
+
+## Lesson 9 Part 1
+**Backface Visibility**
+This property allows us to control the visibility of the back face of an element when it's rotated in 3D space.
+
+It's like being able to see what's behind an element when we rotate it, similar to flipping a card to see its other side.
+
+![Flipping a card](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG1jcmxjZmtkY2ZuNWs2ZGZnbnoxemRqbHBvc2czbGpsY3ZnOG93cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Qg5PQDK1lLwMRCVGDU/giphy.gif)
