@@ -85,3 +85,10 @@ This property allows us to control the visibility of the back face of an element
 It's like being able to see what's behind an element when we rotate it, similar to flipping a card to see its other side.
 
 ![Flipping a card](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG1jcmxjZmtkY2ZuNWs2ZGZnbnoxemRqbHBvc2czbGpsY3ZnOG93cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Qg5PQDK1lLwMRCVGDU/giphy.gif)
+
+## Lesson 10 and 11 Part 1
+**Parallax Part 1**
+
+Parallax is an effect where different elements or backgrounds move at different speeds, creating a sense of depth and dimension in the design.
+
+![Parallax](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzZrY3dqYXQwbG5nZWxoZXozZjNjYjU4OTl0dHp5c3Z3dzZ4eXEwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K1F134Hj3JeQ8/giphy.gif)
