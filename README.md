@@ -171,7 +171,7 @@ Additional Resources:
 [Css Triggers](https://csstriggers.com/)
 [Platzi Course Content](https://platzi.com/cursos/transformaciones-transiciones-css/propiedades-recomendadas-y-no-recomendadas-para-an/)
 
-### Lesson 18 Part 2
+## Lesson 18 Part 1
 **Will Change**
 
 Common hardware performance issues:
@@ -185,3 +185,14 @@ The `will-change` property helps optimize performance by:
 - Optimizing the rendering process for better performance. 
 
 Note: Use this property only when necessary, as it can consume additional resources.
+
+## Lesson 19 Part 1
+**Reduce Motion**
+This feature is designed for users who prefer minimal or no animations. We can use the media query `@media (prefers-reduced-motion: no-preference)` to:
+- Show animations for users who enjoy them.
+- Provide a reduced-motion experience for user who prefer it.
+
+This accessibility feature is available in:
+- macOs System Preference.
+- Windows Settings.
+- Various other operating systems and browsers.
