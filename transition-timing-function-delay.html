@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timing Function and Delay</title>
+  <style>
+    .container:hover .circle {
+      transform: translateX(200px)
+    }
+    .circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .one {
+      background: lavender;
+      transition: transform 1s ease;
+      transition-delay: 0.5s
+    }
+    .two {
+      background: plum;
+      transition: transform 1.5s ease-in;
+      transition-delay: 0.5s
+    }
+    .three {
+      background: thistle;
+      transition: transform 1.2s ease-in-out;
+      transition-delay: 0.5s
+    }
+    .four {
+      background: orchid;
+      transition: transform 1s step-end;
+      transition-delay: 0.5s
+    }
+    .five {
+      background: fuchsia;
+      transition: transform 1s step-start;
+      transition-delay: 0.5s
+    }
+    .six{
+      background: papayawhip;
+      transition: transform 2.5s cubic-bezier(.17,.67,.83,.67);
+      transition-delay: 0.5s
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="circle one"></div>
+    <div class="circle two"></div>
+    <div class="circle three"></div>
+    <div class="circle five"></div>
+    <div class="circle six"></div>
+  </div>
+</body>
+</html>

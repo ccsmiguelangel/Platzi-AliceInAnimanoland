@@ -124,3 +124,15 @@ Values syntax options:
 We have added transition properties to all HTML test files in the folder.
 
 [HTML Colors Codes](https://htmlcolorcodes.com/)
+
+## Lesson 13 Part 1
+**Timing function and delay**
+`transition-timing-function`: sets timing function for transition accelerate.
+- `ease`: Default value. The element accelerates gradually and decelerates.
+- `ease-in`: the element starts slow but ends fast.
+- `ease-out`: the element start quickly and decelerates but ends slowly.
+- ease-in-out: Combines both ease-in and ease-out for a smooth transition.
+- cubic-bezier: Custom timing function using two control points to create a specific acceleration curve. You can generate the formula hre: [Cubic Bezier](https://cubic-bezier.com/)
+
+
+`transition-delay`: Sets the time to wait before starting the transitions after the trigger.
