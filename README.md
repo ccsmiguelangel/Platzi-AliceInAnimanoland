@@ -134,5 +134,10 @@ We have added transition properties to all HTML test files in the folder.
 - ease-in-out: Combines both ease-in and ease-out for a smooth transition.
 - cubic-bezier: Custom timing function using two control points to create a specific acceleration curve. You can generate the formula hre: [Cubic Bezier](https://cubic-bezier.com/)
 
-
 `transition-delay`: Sets the time to wait before starting the transitions after the trigger.
+
+## Lesson 14 and 15 Part 1
+**UX Tips**
+1. For Jump Animations (like in circle-jump file):
+  - Start quickly and end slowly for a more natural feel.
+  - Follows the principle of easing-out for a better user perception.
