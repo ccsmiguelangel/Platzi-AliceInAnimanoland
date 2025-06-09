@@ -102,3 +102,25 @@ We use a "scale" transform to adjust the element size for transitions. The scale
 
 The teacher showed us a beautiful parallax example here:
 [Beauty Parallax Blog](https://www.bustle.com/comics/why-pizza-is-your-real-bff-39351)
+
+## Lesson 12 Part 1
+**Transition Property and During**
+
+### Properties:
+- `transition-property`
+Specifies which CSS property to animate.
+- `transition-duration`
+Defines how long the animation takes to complete
+- `transition`
+  Shorthand property that combines all transition properties
+
+### Values:
+Values syntax options:
+- `transition: initial | inherit;`
+- `transition: [property] [duration] [timing-function] [delay];`
+- `transition-property: none | all | <property> | initial | inherit;`
+- `transition-duration: <time> initial | inherit;`
+
+We have added transition properties to all HTML test files in the folder.
+
+[HTML Colors Codes](https://htmlcolorcodes.com/)
