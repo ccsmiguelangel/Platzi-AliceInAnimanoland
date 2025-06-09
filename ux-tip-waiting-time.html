@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UX Tip: Waiting Time</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    ul {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+    }
+    .nav {
+      display: flex;
+    }
+    .nav li ul{
+      display: block;
+      opacity: 0;
+      position: absolute;
+      transition: opacity 400ms;
+      transition-delay: 300ms;
+    }
+    .nav li:hover > ul{
+      opacity: 1;
+      transition: opacity 400ms;
+      transition-delay: 300ms;
+    }
+    .nav li ul li {
+      position: relative;
+      right: 20px;
+    }
+
+  </style>
+</head>
+<body>
+  <ul class="nav">
+    <li>
+      <a href="">Women</a>
+      <ul>
+        <li><a href="">T-Shirts</a></li>
+        <li><a href="">Jeans</a></li>
+        <li>
+          <a href="">Shorts</a>
+          <ul>
+            <li><a href="">Short</a></li>
+            <li><a href="">Long</a></li>
+            <li><a href="">Transparent</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="">Men</a></li>
+    <li><a href="">Kids</a></li>
+    <li><a href="">Accesories</a></li>
+  </ul>
+</body>
+</html>

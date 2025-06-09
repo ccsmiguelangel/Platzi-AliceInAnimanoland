@@ -136,8 +136,11 @@ We have added transition properties to all HTML test files in the folder.
 
 `transition-delay`: Sets the time to wait before starting the transitions after the trigger.
 
-## Lesson 14 and 15 Part 1
+## Lesson 14, 15 and 16 Part 1
 **UX Tips**
 1. For Jump Animations (like in circle-jump file):
   - Start quickly and end slowly for a more natural feel.
   - Follows the principle of easing-out for a better user perception.
+2. For Delays Timing:
+  - Allow users time to understand the functionability on hover pseudo class element, for example.
+  - Create a smooth user experience with appropriate waiting times.
