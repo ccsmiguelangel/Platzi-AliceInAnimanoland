@@ -170,3 +170,18 @@ Additional Resources:
 [Mozilla Hacks](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/)
 [Css Triggers](https://csstriggers.com/)
 [Platzi Course Content](https://platzi.com/cursos/transformaciones-transiciones-css/propiedades-recomendadas-y-no-recomendadas-para-an/)
+
+### Lesson 18 Part 2
+**Will Change**
+
+Common hardware performance issues:
+- Images not loading correctly.
+- Video and audio synchronization problems.
+- Elements appearing with incorrect styling.
+
+The `will-change` property helps optimize performance by:
+- Anticipating and preparing for upcoming changes.
+- Informing the browser about propertierties that will animate.
+- Optimizing the rendering process for better performance. 
+
+Note: Use this property only when necessary, as it can consume additional resources.
