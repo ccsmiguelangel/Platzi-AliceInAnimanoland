@@ -188,6 +188,7 @@ Note: Use this property only when necessary, as it can consume additional resour
 
 ## Lesson 19 Part 1
 **Reduce Motion**
+
 This feature is designed for users who prefer minimal or no animations. We can use the media query `@media (prefers-reduced-motion: no-preference)` to:
 - Show animations for users who enjoy them.
 - Provide a reduced-motion experience for user who prefer it.
@@ -196,3 +197,8 @@ This accessibility feature is available in:
 - macOs System Preference.
 - Windows Settings.
 - Various other operating systems and browsers.
+
+## Lesson 20 Part 1
+
+Additional Resources:
+[Val Head](https://valhead.com/)
