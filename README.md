@@ -202,3 +202,6 @@ This accessibility feature is available in:
 
 Additional Resources:
 [Val Head](https://valhead.com/)
+
+**I did it! I'm back!**
+!(Diploma Part 1)[diploma/part_1.png]
