@@ -207,3 +207,9 @@ Additional Resources:
 ![Diploma Part 1](diploma/part_1.png)
 
 Dedicated to my friend Carlos Farías.
+
+## Lesson 1 Part 2
+Additional Resources:
+[cssanimation.rocks](https://cssanimation.rocks/principles/)
+[The Illusion of Life: Disney Animation](https://www.amazon.com/Illusion-Life-Disney-Animation/dp/0786860707)
+![12 Principles of Animation](https://static.platzi.com/media/public/uploads/12_principles_of_animation_14a18c8a-cc2c-492d-af3b-fae713c4fda6.gif)
