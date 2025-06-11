@@ -213,3 +213,18 @@ Additional Resources:
 [cssanimation.rocks](https://cssanimation.rocks/principles/)
 [The Illusion of Life: Disney Animation](https://www.amazon.com/Illusion-Life-Disney-Animation/dp/0786860707)
 ![12 Principles of Animation](https://static.platzi.com/media/public/uploads/12_principles_of_animation_14a18c8a-cc2c-492d-af3b-fae713c4fda6.gif)
+
+## Lesson 2 Part 2
+**Animationland Game Development**
+In this module, we begin developing Animationaland, a game where:
+- Players click on appearing rabbits to score points.
+- Each successful click add one point to the counter.
+- The game features animated elements and interactive componets.
+
+![Animational Game](https://static.platzi.com/media/articlases/Images/WhatsApp%20Image%202022-04-05%20at%206.45.02%20PM%20%281%29.jpeg)
+
+
+Today's focus: Couter Implementation
+- Created counter.html file.
+- Implemented counter functionability using pure CSS.
+- Designed the counter's visual structure.
