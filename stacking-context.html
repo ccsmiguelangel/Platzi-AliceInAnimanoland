@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stacking Context</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      width: 100%;
+      display: grid;
+      place-items: center;
+    }
+    .phone {
+      position: relative;
+      border: 8px solid #222;
+      border-radius: 40px;
+      height: 600px;
+      width: 300px;
+      background: PaleTurquoise;
+      box-shadow: 0 19px 38px rgb(2,2,2, 0.3), 0 15px 12px rgb(2,2,2, 0.22), ;
+    }
+    .layer {
+      position: absolute;
+      bottom: 0;
+      margin: 0 auto;
+      border-radius: 10px 10px 30px 30px;
+    }
+    .rabbits {
+      background: white;
+      width: 80px;
+    }
+    .trees{
+      background: SandyBrown;
+      border-top: 15px solid SeaGreen;
+    }
+    .rabbits, .trees {
+      box-shadow: 0 19px 38px rgb(2,2,2, 0.1), 0 15px 12px rgb(2,2,2, 0.1);
+    }
+    .shrub {
+      background: SeaGreen;
+      height: 130px;
+      width: 150px;
+      right: 0;
+      left: 0;
+    }
+    .cloud {
+      height: 100px;
+      width: 120px;
+      background: aliceblue;
+    }
+    .layer-1.rabbits, .layer-2.rabbits {
+      height: 470px;
+      width: 80px;
+    }
+    .layer-1 {
+      z-index: 1;
+      right: 60px;
+    }
+    .layer-2{
+      z-index: 2;
+      left: 60px;
+    }
+    .layer-3.trees {
+      z-index: 3;
+      left: 0;
+      right: 0;
+      width: 220px;
+      height: 440px;
+    }
+    .layer-4.rabbits{
+      z-index: 4;
+      left: 50px;
+      height: 350px;
+    }
+    .layer-5.trees{
+      z-index: 5;
+      width: 185px;
+      height: 320px;
+    }
+    .layer-6.rabbits{
+      z-index: 6;
+      height: 230px;
+      right: 40px;
+    }
+    .layer-7{
+      z-index: 7;
+      width: 160px;
+      height: 200px;
+      right: 0;
+    }
+    .layer-8.shrub{
+      z-index: 8;
+    }
+    .layer-9.cloud{
+      z-index: 9;
+      left: 0;
+    }
+    .layer-10.cloud{
+      z-index: 10;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="phone">
+    <div class="layer layer-1 rabbits"></div>
+    <div class="layer layer-2 rabbits"></div>
+    <div class="layer layer-3 trees"></div>
+    <div class="layer layer-4 rabbits"></div>
+    <div class="layer layer-5 trees"></div>
+    <div class="layer layer-6 rabbits"></div>
+    <div class="layer layer-7 trees"></div>
+    <div class="layer layer-8 shrub"></div>
+    <div class="layer layer-9 cloud"></div>
+    <div class="layer layer-10 cloud"></div>
+  </div>
+</body>
+</html>

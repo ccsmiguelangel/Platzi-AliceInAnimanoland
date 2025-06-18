@@ -228,3 +228,12 @@ Today's focus: Couter Implementation
 - Created counter.html file.
 - Implemented counter functionability using pure CSS.
 - Designed the counter's visual structure.
+
+## Lesson 3 Part 3
+**Stacking Context**
+
+In this module, we implemented layering using `z-index` positioning and applied various styles to create depth.
+
+Te teacher demonstrated how to create the initial elements, and we continued building.
+
+Today's focus was on implementing 3D design concepts by stacking elements layer by layer, creating a sense of depth and dimension in our design.
